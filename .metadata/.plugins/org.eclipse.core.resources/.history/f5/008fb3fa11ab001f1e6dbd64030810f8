@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xlmns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>こんにちは</title>
+</head>
+
+<body>
+	<p>こんにちは！</p>
+
+</body>
+
+</html>
