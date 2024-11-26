@@ -9,7 +9,6 @@
 <body>
 	<span th:text="${name}"></span>さん、こんにちは！
 	バイバイ、<span th:text="${name}"></span>さん
-	最近調子はどうですか？
 </body>
 
 </html>
