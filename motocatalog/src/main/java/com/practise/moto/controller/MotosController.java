@@ -12,7 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.practise.moto.bean.Brand;
 import com.practise.moto.bean.Motorcycle;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Controller
+@Slf4j
 public class MotosController {
 	
 	@RequestMapping("/test")
@@ -39,6 +42,8 @@ public class MotosController {
 		
 		model.addAttribute("brands",brands);
 		model.addAttribute("motos",motos);
+		
+		log.info("motos: {}", motos); //ログ出力をする
 			
 		return "moto_list";
 	}
