@@ -1,0 +1,4 @@
+spring.application.name=motocatalog
+logging.level.root=debug
+logging.file.name=app.log
+

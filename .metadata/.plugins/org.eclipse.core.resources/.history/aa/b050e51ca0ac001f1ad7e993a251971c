@@ -1,0 +1,27 @@
+package com.practise.moto.bean;
+
+public class Motorcycle {
+
+	// バイク番号
+	private String motoNo;
+	/// / バイ名
+	private String motoName;
+	// シート高
+	private String seatHeight;
+	// シリンダー
+	private Integer cylinder;
+	// 冷却
+	private Integer cooling;
+	// 価格
+	private Integer price;
+	// コメント
+	private Integer comment;
+	// ブランドID
+	private String brandId;
+	// バージョン
+	private Integer version;
+	// 登録日時
+	private LocalDateTime insDt;
+	// 更新日時
+	private LocalDateTime updDt;
+}
